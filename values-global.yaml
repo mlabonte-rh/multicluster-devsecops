@@ -14,15 +14,15 @@ global:
     namespace: "openshift-storage"
 
   imageregistry:
-    account: PLAINTEXT
+    account: css-qe
     hostname: quay.io
     type: quay
 
   git:
     hostname: github.com
-    account: PLAINTEXT
-    username: PLAINTEXT
-    email: SOMEWHERE@EXAMPLE.COM
+    account: mlabonte-rh
+    username: Mark LaBonte
+    email: mlabonte@redhat.com
     dev_revision: main
 
   quay:
